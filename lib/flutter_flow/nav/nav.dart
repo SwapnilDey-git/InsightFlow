@@ -128,6 +128,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: UploadWidget.routeName,
           path: UploadWidget.routePath,
           builder: (context, params) => UploadWidget(),
+        ),
+        FFRoute(
+          name: ChatsupportWidget.routeName,
+          path: ChatsupportWidget.routePath,
+          builder: (context, params) => ChatsupportWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

@@ -8,3 +8,4 @@ export '/profile/profile_widget.dart' show ProfileWidget;
 export '/mydashboard/mydashboard_widget.dart' show MydashboardWidget;
 export '/aivoicepage/aivoicepage_widget.dart' show AivoicepageWidget;
 export '/upload/upload_widget.dart' show UploadWidget;
+export '/chatsupport/chatsupport_widget.dart' show ChatsupportWidget;

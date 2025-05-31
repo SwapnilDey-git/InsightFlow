@@ -647,16 +647,21 @@ class _AivoicepageWidgetState extends State<AivoicepageWidget>
                         width: 1.0,
                       ),
                     ),
-                    child: FlutterFlowIconButton(
-                      buttonSize: 50.0,
-                      icon: Icon(
-                        Icons.arrow_back_rounded,
-                        color: FlutterFlowTheme.of(context).primaryText,
-                        size: 24.0,
-                      ),
-                      onPressed: () {
-                        print('IconButton pressed ...');
-                      },
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        FlutterFlowIconButton(
+                          buttonSize: 50.0,
+                          icon: Icon(
+                            Icons.arrow_back_rounded,
+                            color: FlutterFlowTheme.of(context).primaryText,
+                            size: 24.0,
+                          ),
+                          onPressed: () async {
+                            context.safePop();
+                          },
+                        ),
+                      ],
                     ),
                   ),
                 ),

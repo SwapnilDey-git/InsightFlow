@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848461988653",
+    "project_id": "insightflow-7143b",
+    "storage_bucket": "insightflow-7143b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848461988653:android:7dc6f203b5021e9ad189a4",
+        "android_client_info": {
+          "package_name": "com.Swapnil_InsightFlow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGQyRV-ph09Ertz9fdtiTxGFlU0DoFKDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848461988653:android:a1d33c054d2fb9dfd189a4",
+        "android_client_info": {
+          "package_name": "com.mycompany.insightflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGQyRV-ph09Ertz9fdtiTxGFlU0DoFKDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

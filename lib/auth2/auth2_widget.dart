@@ -144,24 +144,37 @@ class _Auth2WidgetState extends State<Auth2Widget>
           top: true,
           child: Stack(
             children: [
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(32.0, 12.0, 32.0, 32.0),
-                child: Container(
-                  width: double.infinity,
-                  height: 130.21,
-                  decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).primary,
-                    borderRadius: BorderRadius.circular(16.0),
-                  ),
-                  alignment: AlignmentDirectional(0.0, 0.0),
-                  child: Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 72.0),
-                    child: Text(
-                      'InsightFlow',
-                      style:
-                          FlutterFlowTheme.of(context).headlineLarge.override(
-                                font: GoogleFonts.readexPro(
+              Align(
+                alignment: AlignmentDirectional(0.0, -1.0),
+                child: Padding(
+                  padding:
+                      EdgeInsetsDirectional.fromSTEB(32.0, 12.0, 32.0, 32.0),
+                  child: Container(
+                    width: double.infinity,
+                    height: 130.21,
+                    decoration: BoxDecoration(
+                      color: FlutterFlowTheme.of(context).primary,
+                      borderRadius: BorderRadius.circular(16.0),
+                    ),
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 72.0),
+                      child: Text(
+                        'InsightFlow',
+                        style:
+                            FlutterFlowTheme.of(context).headlineLarge.override(
+                                  font: GoogleFonts.readexPro(
+                                    fontWeight: FlutterFlowTheme.of(context)
+                                        .headlineLarge
+                                        .fontWeight,
+                                    fontStyle: FlutterFlowTheme.of(context)
+                                        .headlineLarge
+                                        .fontStyle,
+                                  ),
+                                  color: FlutterFlowTheme.of(context)
+                                      .primaryBackground,
+                                  letterSpacing: 0.0,
                                   fontWeight: FlutterFlowTheme.of(context)
                                       .headlineLarge
                                       .fontWeight,
@@ -169,14 +182,7 @@ class _Auth2WidgetState extends State<Auth2Widget>
                                       .headlineLarge
                                       .fontStyle,
                                 ),
-                                letterSpacing: 0.0,
-                                fontWeight: FlutterFlowTheme.of(context)
-                                    .headlineLarge
-                                    .fontWeight,
-                                fontStyle: FlutterFlowTheme.of(context)
-                                    .headlineLarge
-                                    .fontStyle,
-                              ),
+                      ),
                     ),
                   ),
                 ),
@@ -427,36 +433,40 @@ class _Auth2WidgetState extends State<Auth2Widget>
                                                           labelStyle:
                                                               FlutterFlowTheme.of(
                                                                       context)
-                                                                  .labelLarge
+                                                                  .bodyLarge
                                                                   .override(
                                                                     font: GoogleFonts
                                                                         .inter(
                                                                       fontWeight: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .labelLarge
+                                                                          .bodyLarge
                                                                           .fontWeight,
                                                                       fontStyle: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .labelLarge
+                                                                          .bodyLarge
                                                                           .fontStyle,
                                                                     ),
+                                                                    color: FlutterFlowTheme.of(
+                                                                            context)
+                                                                        .primaryText,
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight: FlutterFlowTheme.of(
                                                                             context)
-                                                                        .labelLarge
+                                                                        .bodyLarge
                                                                         .fontWeight,
                                                                     fontStyle: FlutterFlowTheme.of(
                                                                             context)
-                                                                        .labelLarge
+                                                                        .bodyLarge
                                                                         .fontStyle,
                                                                   ),
                                                           enabledBorder:
                                                               OutlineInputBorder(
                                                             borderSide:
                                                                 BorderSide(
-                                                              color: Color(
-                                                                  0xFFE4E4E4),
+                                                              color: FlutterFlowTheme
+                                                                      .of(context)
+                                                                  .primaryText,
                                                               width: 2.0,
                                                             ),
                                                             borderRadius:
